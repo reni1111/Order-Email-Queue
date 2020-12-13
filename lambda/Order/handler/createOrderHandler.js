@@ -20,7 +20,7 @@ const createOrderHandler = async (event, context, callback ) => {
       throw new Error(error)
 
     const response = {
-      statusCode: 200, 
+      statusCode: 201, 
       body: JSON.stringify(order),
     }
     console.log(response)

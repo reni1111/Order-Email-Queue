@@ -18,6 +18,7 @@ The whole application is implemented by the principle "Infrastructure as Code", 
 1. Add to env your amazon access keys
 2. run `npm install`  
 3. `npm run deploy`
+
 You are done :)
 
 ## Cloud Formation Stacks

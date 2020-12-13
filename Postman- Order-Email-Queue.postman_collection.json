@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "5f5ea711-3bcb-4389-8de4-11003680800f",
+		"name": "Postman: Order-Email-Queue",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://p50ywlls4e.execute-api.eu-central-1.amazonaws.com/prod/order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"renaldo\",\n    \"userEmail\": \"renaldobalaj@gmail.com\",\n    \"userId\": \"awrawr12412\",\n    \"address\": \"Rruga Migjeni\",\n    \"products\": [\n        {\n            \"itemId\": \"ffawfwafw\",\n            \"amount\": {\n                \"currency\": \"ALL\",\n                \"value\": 24.24\n            }\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://p50ywlls4e.execute-api.eu-central-1.amazonaws.com/prod/order",
+					"protocol": "https",
+					"host": [
+						"p50ywlls4e",
+						"execute-api",
+						"eu-central-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"order"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "id",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

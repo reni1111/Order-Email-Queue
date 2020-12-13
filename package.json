@@ -1,0 +1,42 @@
+{
+  "name": "order-queue",
+  "version": "1.0.0",
+  "bin": {
+    "orderQueue": "bin/orderQueue.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "deploy": "cdk deploy --all",
+    "test": "mocha --timeout 120000"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.22.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "mocha": "^8.2.1",
+    "mailosaur": "^7.0.5"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-dynamodb": "^1.68.0",
+    "@aws-cdk/aws-iam": "^1.68.0",
+    "@aws-cdk/aws-lambda": "^1.68.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.68.0",
+    "@aws-cdk/aws-sqs": "^1.68.0",
+    "@aws-cdk/core": "^1.68.0",
+    "@middy/core": "^1.4.0",
+    "@middy/http-error-handler": "^1.4.0",
+    "@middy/http-json-body-parser": "^1.4.0",
+    "@middy/http-partial-response": "^1.4.0",
+    "@middy/validator": "^1.4.0",
+    "aws-cdk": "^1.75.0",
+    "aws-cdk-webpack-lambda-function": "^0.3.3",
+    "aws-sdk": "^2.773.0",
+    "axios": "^0.20.0",
+    "ksuid": "^1.2.0",
+    "uuid": "^8.3.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
